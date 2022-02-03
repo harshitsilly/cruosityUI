@@ -1,0 +1,17 @@
+.bg {
+	background: linear-gradient(0deg, var(--color-homepage-dark), var(--color-homepage-light));
+	color: var(--color);
+}
+
+.footer {
+	overflow: hidden;
+	background: linear-gradient(0deg, var(--color-homepage-dark), var(--color-homepage-light));
+
+	> div {
+		align-items: center;
+		> span,
+		div {
+			margin-top: 25px;
+		}
+	}
+}
